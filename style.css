@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+/** Header **/
+.navbar {
+  height: 200px;
+  background-color: white;
+  color: white;
+}
+.nav-logo {
+  width: 100%;
+  height: auto;
+}
+.logo {
+  margin-left: 40px;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
+/** Hero-Section **/
+.hero-section {
+  background-color: white;
+  height: 550px;
+}
+
+.hero-msg {
+  margin-left: 40px;
+  background-color: white;
+  color: black;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 40px;
+  font-weight: bold;
+}
+.hero-sub-msg {
+  margin-left: 40px;
+  background-color: white;
+  color: black;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 25px;
+  font-weight: normal;
+}
+.box {
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 22%;
+  border: 1px solid;
+  padding: 20px;
+  text-align: center;
+  border-radius: 1rem;
+  border: none;
+  font-size: 3vmin;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(64, 126, 247);
+}
+.text-color {
+  color: rgb(64, 126, 247);
+}
+.subtext {
+  margin-left: 40px;
+  margin-top: 20px;
+  color: rgb(118, 116, 116);
+  font-size: 2.5vmin;
+}
+.footer-img {
+  background-size: cover;
+  width: 150px;
+  height: auto;
+}
+.address{
+  margin-top: 10px;
+}
+.address1{
+  margin-top: 10px;
+}
+
+.youtubelogo{
+  background-size: cover;
+  width: 30px;
+  height: auto;
+}
+.linkedin{
+    background-size: cover;
+  width: 30px;
+  height: auto;
+}
+.footer-copyright{
+  margin-top: 10px;
+
+}
+.terms{
+  margin-top: 10px;
+}
+
+.foot-panel {
+  background-color: white;
+  color: rgb(118, 116, 116);
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2vmin;
+}
+ul a {
+  display: block;
+}
